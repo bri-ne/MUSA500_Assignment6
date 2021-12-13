@@ -14,6 +14,7 @@ We pulled from the Twitter API v2 using Python and Tweepy. In total we pulled 50
 We then used `nltk` and `string` to remove common stop words such as `'don', 'these', 'couldn', 'they', 'be', 'once',` and any punctuation and non-letters, as well as the word "rt". Further we urls using a function provided by Geospatial Data Science in Python professor Nick Hand and removed the word "rt". 
 
 A first glance, shows the most common words associated with the tweets using the word "eviction".
+
 ![alt-text]({{ site.url }}{{ site.baseurl }}/assets/images/commonwords.png
 
 
