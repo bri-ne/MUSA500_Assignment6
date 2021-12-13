@@ -1,8 +1,8 @@
-title: MUSA 550
+title: MUSA 500 Assignment 6
 logo: /assets/img/logo.png
-description: Geospatial Data Science in Python.
+description: Tweets About Eviction Around the World
 show_downloads: false
-repository: MUSA-550-Fall-2021/github-pages-single-page-starter
+repository: bri-ne/MUSA500_Assignment6
 google_analytics:
 remote_theme: pages-themes/minimal
 plugins:
