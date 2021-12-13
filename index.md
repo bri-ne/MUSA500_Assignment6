@@ -1,65 +1,30 @@
 ---
 layout: default
-altair-loader:
-  altair-chart-1: "charts/measlesAltair.json"
-hv-loader:
-  hv-chart-1: ["charts/measlesHvplot.html", "500"] # second argument is the desired height
-folium-loader:
-  folium-chart-1: ["charts/foliumChart.html", "400"] # second argument is the desired height
-  folium-chart-2: ["charts/percent_no_internet.html", "400"] # second argument is the desired height
+
 ---
 
-# Welcome!
+# Title
 
-This single-page website demos how to display visualizations created with altair, hvplot, and folium.
+A 1-2 paragraph explanation of the urban problem for which you are doing this analysis. Be sure to talk about the significance of the problem, and to provide a brief description of the Twitter search term which you will be using, as well as the date and time you conducted the analysis. **Our analysis was conducted on Sunday Dec. 12th at 11pm.**
 
-For examples of how to use markdown to style text, see this [this page](./another-page.html).
+## Method
 
-# Example: Embedding Altair & Hvplot Charts
+We pulled from the Twitter API v2 using Python and Tweepy. In total we pulled 50,000 tweets in an effort to capture a reasonable amount of tweets with location information. At the end, only ~ 170 of the tweets we pulled had location information. 
 
-This section will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
+We then used `nltk` and `string` to remove common stop words such as `'don', 'these', 'couldn', 'they', 'be', 'once',` and any punctuation and non-letters, as well as the word "rt". Further we urls using a function provided by Geospatial Data Science in Python professor Nick Hand and removed the word "rt". 
 
-## Altair Example
+A first glance, shows the most common words associated with the tweets using the word "eviction".
+![alt-text]({{ site.url }}{{ site.baseurl }}/assets/images/commonwords.png
 
-Below is a chart of the incidence of measles since 1928 for the 50 US states.
 
-<div id="altair-chart-1"></div>
+## Word Cloud
 
-This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
+Below is a word cloud of the terms associated with eviction on twitter.
 
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
+## Map 
 
-## HvPlot Example
+Below is a map of where tweets containing our search words came from around the world. 
 
-Lastly, the measles incidence produced using the HvPlot package:
+![alt-text]({{ site.url }}{{ site.baseurl }}/assets/images/tweetsWorld.png
 
 <div id="hv-chart-1"></div>
-
-## Notes
-
-- See the [lecture 13A slides](https://musa-550-fall-2021.github.io/slideslecture-13A.html) for the code that produced these plots.
-
-**Important: When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.**
-
-# Example: Embedding Folium charts
-
-This post will show examples of embedding interactive maps produced using [Folium](https://github.com/python-visualization/folium).
-
-## OSMnx and Street Networks
-
-The shortest route between the Art Museum and the Liberty Bell:
-
-<div id="folium-chart-1"></div>
-
-<br/>
-
-## Percentage of Households without Internet
-
-The percentage of households without internet by county:
-
-<div id="folium-chart-2"></div>
-
-See the [lecture 9B slides](https://musa-550-fall-2021.github.io/slides/lecture-9B.html) and the [lecture 10A slides](https://musa-550-fall-2021.github.io/slides/lecture-10A.html) for the code that produced these plots.
