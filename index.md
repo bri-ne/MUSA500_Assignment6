@@ -15,7 +15,7 @@ We then used `nltk` and `string` to remove common stop words such as `'don', 'th
 
 A first glance, shows the most common words associated with the tweets using the word "eviction".
 
-!["bar graph of most common words"]({{ site.url }}{{ site.baseurl }}/assets/images/commonwords.png)
+![bar graph of most common words]({{ site.url }}{{ site.baseurl }}/assets/img/commonwords.png)
 
 
 ## Word Cloud
@@ -26,6 +26,5 @@ Below is a word cloud of the terms associated with eviction on twitter.
 
 Below is a map of where tweets containing our search words came from around the world. 
 
-!["map of tweets across the world"]({{ site.url }}{{ site.baseurl }}/assets/images/tweetsWorld.png)
+![map of tweets across the world]({{ site.url }}{{ site.baseurl }}/assets/img/tweetsWorld.png)
 
-<div id="hv-chart-1"></div>
