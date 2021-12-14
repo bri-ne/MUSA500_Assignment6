@@ -11,9 +11,9 @@ A 1-2 paragraph explanation of the urban problem for which you are doing this an
 
 We pulled from the Twitter API v2 using Python and Tweepy. In total we pulled 50,000 tweets in an effort to capture a reasonable amount of tweets with location information. At the end, only ~ 170 of the tweets we pulled had location information. 
 
-We then used `nltk` and `string` to remove common stop words such as `'don', 'these', 'couldn', 'they', 'be', 'once',` and any punctuation and non-letters, as well as the word "rt". Further we urls using a function provided by Geospatial Data Science in Python professor Nick Hand and removed the word "rt". 
+We then used `nltk` and `string` to remove common stop words such as `'don', 'these', 'couldn', 'they', 'be', 'once',` and any punctuation and non-letters, as well as the word "rt" and usernames. Further we removed urls using a function provided by **Geospatial Data Science in Python** professor Nick Hand.
 
-A first glance, shows the most common words associated with the tweets using the word "eviction".
+A simple bar chart shows the most common words associated with the tweets using the word "eviction".
 
 ![bar graph of most common words]({{ site.url }}{{ site.baseurl }}/assets/img/commonwords.png)
 
@@ -22,9 +22,11 @@ A first glance, shows the most common words associated with the tweets using the
 
 Below is a word cloud of the terms associated with eviction on twitter.
 
+![wordcloud of most common words]({{ site.url }}{{ site.baseurl }}/assets/img/wordcloud.png)
+
+
 ## Map 
 
 Below is a map of where tweets containing our search words came from around the world. 
-
 ![map of tweets across the world]({{ site.url }}{{ site.baseurl }}/assets/img/tweetsWorld.png)
 
