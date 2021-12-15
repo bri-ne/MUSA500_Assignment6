@@ -12,7 +12,7 @@ This analysis pulls tweets containing the search term "eviction", identifies com
 
 ## Method
 
- **Our analysis was conducted on Sunday Dec. 12th at 11pm.**
+ **Our analysis was conducted on Sunday Dec. 12th at 11pm.** [See our Jupyter Notebooks Here](https://github.com/bri-ne/MUSA500_Assignment6/tree/main/JupyterNotebooks)
 We pulled from the Twitter API v2 using Python and Tweepy. In total we pulled 50,000 tweets in an effort to capture a reasonable amount of tweets with location information. At the end, only ~ 170 of the tweets we pulled had location information.
 
 We then used `nltk` and `string` to remove common stop words such as `'don', 'these', 'couldn', 'they', 'be', 'once',` and any punctuation and non-letters, as well as the word "rt" and usernames. Further we removed urls using a function provided by **Geospatial Data Science in Python** professor Nick Hand.
