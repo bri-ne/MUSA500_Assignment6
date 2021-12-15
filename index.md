@@ -35,8 +35,8 @@ Below is a map of where tweets containing our search words came from around the 
 
 ### REFERENCES
 
-^1^ Jacob Haas, Jasmine Rangel, Juan Pablo Garnham, Peter Hepburn [Preliminary Analysis: Eviction Filing Trends After the CDC Moratorium Expiration]('https://evictionlab.org/updates/research/eviction-filing-trends-after-cdc-moratorium/'), Eviction Lab, December 9, 2021
+^1 Jacob Haas, Jasmine Rangel, Juan Pablo Garnham, Peter Hepburn [Preliminary Analysis: Eviction Filing Trends After the CDC Moratorium Expiration]('https://evictionlab.org/updates/research/eviction-filing-trends-after-cdc-moratorium/'), Eviction Lab, December 9, 2021
 
-^2^ U.S. Rep. Mary Gay Scanlon [Philadelphia's evictionn diversion program is a national model -- let it continue]('https://billypenn.com/2021/10/26/philadelphia-eviction-diversion-program-rental-assistance-pa-supreme-court-scanlon/'), BillyPenn, October 26, 2021
+^2 U.S. Rep. Mary Gay Scanlon [Philadelphia's evictionn diversion program is a national model -- let it continue]('https://billypenn.com/2021/10/26/philadelphia-eviction-diversion-program-rental-assistance-pa-supreme-court-scanlon/'), BillyPenn, October 26, 2021
 
-^3^ Kumu, [PBB Kumunity: Pinoy Big Brother Season 10 is here!]('https://blog.kumu.ph/pbb-kumunity-pinoy-big-brother-season-10/' August 27, 2021
+^3 Kumu, [PBB Kumunity: Pinoy Big Brother Season 10 is here!]('https://blog.kumu.ph/pbb-kumunity-pinoy-big-brother-season-10/') August 27, 2021
