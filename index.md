@@ -3,7 +3,7 @@ layout: default
 
 ---
 
-# Title
+# Search Term: "EVICTION"
 
 In August of this year, the supreme court ended the federal eviction moratorium established by the Centers for Disease Control and Prevention (CDC) nearly a year prior. While the moratorium was in place, [Eviction Lab]('https://evictionlab.org/') estimated that the US saw at least 1.55 million fewer eviction filings that normal.<sup>1</sup> The moratorium was a crucial security measure for millions of Americans facing economic uncertainty during the COVID-19 pandemic. Philadelphia pioneered the widely successful Eviction Diversion Program using the federal COVID-19 relief packages passed by Congress, which began on September 1st, 2020. This program facilitated a mandated mediation process between landlord and tenant to reach an agreement before an eviction could be legally filed.  "Before the pandemic, Philadelphia Averaged 20,000 evictions per year -- fourth in total filings among the largest U.S. cities. Now, Philadelphia Municipal Court sees far fewer -- just 5,000 this year to date." <sup>2</sup>  Similarly to the federal eviction moratorium, the Eviction Diversion Program was a safety net for low income Philadelphians at the local level. Without such programs, cost burdened renters across America are at the mercy of their landlords, and are a few missed rent payments away from homelessness.
 
